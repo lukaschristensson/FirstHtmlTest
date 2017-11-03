@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Om oss
+	</title>
+	
+	<link href="CSSFILE.css" type="text/css" rel="stylesheet">
+	<script src="JSFILE.js"></script><script>
+		function setup(){
+			setElementToKeyword('AboutUsHeading','About us heading');
+			setElementToKeyword('AboutUsBody','About us body');
+		}
+	
+	
+		function setElementToKeyword(Id,Keyword){
+			document.getElementById(Id).innerHTML = getText(Keyword);
+		}
+	</script>
+</head>
+	<div id="NAVBAR">
+	
+		<img src="../Resources/LTH.png" height="auto" width="auto">
+		<ul>
+			<li><a href="./index.html">Hem</a></li>
+			<li><a href="">inside</a></li>
+			<li><a href="">up</a></li>
+			<li><a href="./about.html">Om oss</a></li>
+		</ul>
+		
+	</div>
+	<body onload = "setup()">
+	<div id="InfoPage">
+		<!--the heading-->
+		<p style = "
+		text-align: center;
+		font-size: 400%;
+		margin: 0;
+		"
+		id = "AboutUsHeading"></p>
+	</div>
+	<div id="InfoPage">
+		<!--the body-->
+		<img src="../Resources/LTH.png" width="auto">
+		<p style = "
+		margin: 0;
+		padding: 20px;" 
+		id = "AboutUsBody"></p>
+	</div>
+	
+	</body>
+</html>

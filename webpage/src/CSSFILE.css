@@ -1,0 +1,87 @@
+#NAVBAR{
+	height= 42px;
+	padding: 0px 0px 0px 20px;
+	width: auto;
+	background: linear-gradient(#444,#777);
+}
+#NAVBAR ul{
+	overflow: hidden;
+	margin: 0;
+	list-style-type: none;
+}
+#NAVBAR li{
+	text-align: center;
+	float: left;
+}
+#NAVBAR li a{
+	display: inline-block;
+	color: white;
+	padding: 21px;
+    text-decoration: none;
+}
+#NAVBAR li a:hover{
+	background: #777;
+	color: white;
+	text-decoration: none;
+}
+#NAVBAR li a:visited{
+	color: white;
+	text-decoration: none;
+}
+#NAVBAR li a:focus{
+	color: white;
+	text-decoration: none;
+}
+#NAVBAR li a:hover,a:active{
+	color: white;
+	text-decoration: none;
+}
+#NAVBAR img {
+	padding: 5px 0 5px 0;
+	height: 50px;
+	width: auto;
+	float: left;
+}
+
+
+#InfoPage {
+	color: #ddd;
+	font-family: "Calibri";
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: auto;
+	
+	width: 90%;
+	background-color: rgba(0,0,0,0.7);
+}
+#InfoPage img{
+	width: auto;
+	height: auto;
+	float: right;
+	
+}
+
+head {
+	min-width: 1000px;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	min-width: 1000px;
+	
+	
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url("../Resources/indexBackground.jpg");
+}
+body img {
+	width: 100%;
+	height: 100%;
+}
